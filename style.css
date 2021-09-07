@@ -1,12 +1,26 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
+  margin: 30vh;
 }
 
 .redBut {
   display: flex;
   justify-content: center;
-  background-color: lightblue;
+  flex-direction: column;
+  background-color: rgba(173, 216, 230, 0.5);
   margin: auto auto;
-  padding: 200px 300px;
+  padding: 100px 100px;
+}
+
+.className {
+  margin: 10px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 30px;
 }
