@@ -1,13 +1,12 @@
-.wrapper
-{
-    display: flex;
-    justify-content: center;
+.wrapper {
+  display: flex;
+  justify-content: center;
 }
 
-.redBut{
-    display: flex;
-    justify-content: center;
-    background-color: lightblue;
-    margin: auto auto;
-    padding: 200px 300px;
+.redBut {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  margin: auto auto;
+  padding: 200px 300px;
 }
