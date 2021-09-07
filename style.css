@@ -6,16 +6,41 @@ body {
 .wrapper {
   display: flex;
   justify-content: center;
-  margin: 30vh;
+  margin: 20vh;
+}
+
+#myBtn {
+  margin: 20px;
+  padding: 10px;
+  width: 30em;
+  font-size: 25px;
+  border-radius: 2em;
+  border: 2px solid black;
+}
+
+#myBtn:active {
+  background-color: darkgray;
+  transition: 0.01s;
+}
+
+#separator {
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  height: 2px;
+  width: 100%;
+  margin: 30px;
 }
 
 .redBut {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(173, 216, 230, 0.5);
+  background-color: rgb(0, 162, 140);
   margin: auto auto;
-  padding: 100px 100px;
+  padding: 3em 5em;
+  border-radius: 3em;
 }
 
 .className {
@@ -23,4 +48,5 @@ body {
   font-family: Open Sans;
   font-weight: 600;
   font-size: 30px;
+  text-align: center;
 }
