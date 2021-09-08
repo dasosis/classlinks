@@ -24,9 +24,9 @@ function showClass() {
       if (myDate.h >= 14 && myDate.h < 17) {
         document.querySelector('.className').innerHTML =
           'Data Structure and Algorithms Lab (Group A) From 2:10 PM';
-      } else {
+      } /*else {
         document.querySelector('.className').innerHTML = 'No Class for Now!';
-      }
+      }*/
       break;
     case 2:
       if (myDate.h >= 11 && myDate.h < 12) {
@@ -44,9 +44,9 @@ function showClass() {
       if (myDate.h >= 17 && myDate.h < 18) {
         document.querySelector('.classname').innerHTML =
           'EVS Class from 4:50 PM';
-      } else {
+      } /*else {
         document.querySelector('.className').innerHTML = 'No Class for Now!';
-      }
+      }*/
       break;
     case 3:
       if (myDate.h >= 11 && myDate.h < 14) {
@@ -56,9 +56,9 @@ function showClass() {
       if (myDate.h >= 14 && myDate.h < 17) {
         document.querySelector('.className').innerHTML =
           'Digital Electronics Lab (Group A) / Computer Organization Lab (Group B) from 2:10 PM';
-      } else {
+      } /*else {
         document.querySelector('.className').innerHTML = 'No Class for Now!';
-      }
+      }*/
       break;
     case 4:
       if (myDate.h >= 11 && myDate.h < 14) {
@@ -72,9 +72,9 @@ function showClass() {
       if (myDate.h >= 16 && myDate.h < 17) {
         document.querySelector('.className').innerHTML =
           'EVS Class from 4:00 PM';
-      } else {
+      } /*else {
         document.querySelector('.className').innerHTML = 'No Class for Now!';
-      }
+      }*/
       break;
     case 5:
       if (myDate.h >= 10 && myDate.h < 11) {
@@ -92,9 +92,9 @@ function showClass() {
       if (myDate.h >= 15 && myDate.h < 18) {
         cdocument.querySelector('.className').innerHTML =
           'Digital Electronics Lab (Group B) / Computer Organization Lab (Group A) from 3:10 PM';
-      } else {
+      } /*else {
         document.querySelector('.className').innerHTML = 'No Class for Now!';
-      }
+      }*/
       break;
     default:
       document.querySelector('.className').innerHTML = 'No Class for Now!';
